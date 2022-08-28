@@ -6,3 +6,7 @@ The purpose of this project is to perform a sentiment analysis of news headlines
 ## Methods
 1. Use LSTM with Glove and W2V.
 2. Use pretrained Bert.
+
+## Data Description
+Raw Data is a dataset collected from kaggle: https://www.kaggle.com/datasets/rmisra/news-headlines-dataset-for-sarcasm-detection
+| Variable | DataType | Description |
