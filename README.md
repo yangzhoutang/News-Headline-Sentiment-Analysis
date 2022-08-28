@@ -16,4 +16,4 @@ Raw Data is a dataset collected from kaggle: https://www.kaggle.com/datasets/rmi
 | `is_sarcastic` | Numeric | 1 if the record is sarcastic otherwise 0  |
 
 ## Conclusion
-The best result is from Bert, with about 0.81 accuracy score. Due to the nature of Bert as a transformer pretrained by an insanely large dataset, it costs almost 10x time than LSTM+W2V+GLOVE. However, LSTM with W2V and Glove can also hit 0.78, which is a good choice for quick sentiment analysis when we don't have too much time to cost.
+The best result is from Bert, with about 0.84 accuracy score. Due to the nature of Bert as a transformer pretrained by an insanely large dataset, it costs almost 10x time than LSTM+W2V+GLOVE. However, LSTM with W2V and Glove can also hit 0.78, which is a good choice for quick sentiment analysis when we don't have too much time to cost.
