@@ -9,4 +9,8 @@ The purpose of this project is to perform a sentiment analysis of news headlines
 
 ## Data Description
 Raw Data is a dataset collected from kaggle: https://www.kaggle.com/datasets/rmisra/news-headlines-dataset-for-sarcasm-detection
-| Variable | DataType | Description |
+| Variable | DataType | Detail |
+|--------|--------|--------|
+| `headline` | Text | the headline of the news article |
+| `article_link` | Text | link to the original news article. Useful for collecting supplementary data |
+| `is_sarcastic` | Numeric | 1 if the record is sarcastic otherwise 0  |
